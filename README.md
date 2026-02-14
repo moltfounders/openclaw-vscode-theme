@@ -38,19 +38,12 @@ Then in VS Code choose:
 
 - `theme/openclaw-moltfounders-dark.json`
 
-## Based on
-
-This theme started from the excellent structure of:
-- https://github.com/primer/github-vscode-theme
-
-Customized and re-tuned for OpenClaw + MoltFounders identity.
-
 ## Screenshots
 
 ### Editor view
 
 ![OpenClaw MoltFounders Theme - Editor](docs/screenshots/theme-editor-crop.png)
 
-### Full desktop capture
+### Window-only capture
 
-![OpenClaw MoltFounders Theme - Full](docs/screenshots/theme-editor-full.png)
+![OpenClaw MoltFounders Theme - Window](docs/screenshots/theme-window-only.png)

@@ -1,7 +1,7 @@
 {
   "name": "openclaw-moltfounders-theme",
   "displayName": "OpenClaw MoltFounders Theme",
-  "description": "A premium dark VS Code theme inspired by OpenClaw + MoltFounders",
+  "description": "A premium dark VS Code theme by MoltFounders",
   "version": "0.1.0",
   "publisher": "moltfounders",
   "license": "MIT",
@@ -41,25 +41,10 @@
     ]
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.4.1",
-    "@changesets/cli": "^2.17.0",
-    "@primer/primitives": "7.10.0",
-    "chroma-js": "^2.1.2",
-    "color": "^3.1.2",
-    "nodemon": "^2.0.3",
     "vsce": "^1.100.1"
   },
   "scripts": {
-    "start": "nodemon --watch src src/index.js",
-    "build": "node src/index.js && mkdir -p build",
-    "package": "vsce package -o ./build/openclaw-moltfounders-theme.vsix",
-    "prepublishOnly": "npm run build && vsce publish",
-    "release": "changeset publish"
-  },
-  "__metadata": {
-    "id": "7328a705-91fc-49e6-8293-da6f112e482d",
-    "publisherDisplayName": "GitHub",
-    "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002"
+    "package": "vsce package -o ./build/openclaw-moltfounders-theme.vsix"
   },
   "publishConfig": {
     "access": "public"
