@@ -1,19 +1,37 @@
-interface SwarmTask {
+type AgentRole = 'orchestrator' | 'explorer' | 'oracle' | 'fixer'
+
+interface ResearchIdea {
   id: string
-  intent: 'research' | 'build' | 'ship'
-  priority: number
+  title: string
+  tractionScore: number
+  links: string[]
+  tags: string[]
 }
 
-const orchestrate = async (task: SwarmTask) => {
-  if (task.intent === 'build' && task.priority > 7) {
+const evaluateIdea = async (idea: ResearchIdea, role: AgentRole) => {
+  const highSignal = idea.tractionScore >= 8 && idea.links.length >= 3
+
+  if (highSignal && role === 'orchestrator') {
     return {
-      channel: 'moltfounders',
-      status: 'ready',
-      confidence: 0.93,
+      decision: 'ship',
+      channel: 'moltfounders/open-source-lab',
+      confidence: 0.94,
+      etaDays: 7,
     }
   }
 
-  throw new Error('Need more context from the team')
+  return {
+    decision: 'research-more',
+    reason: `Need stronger distribution proof for ${idea.title}`,
+  }
 }
 
-orchestrate({ id: 'mf-42', intent: 'build', priority: 9 })
+const idea: ResearchIdea = {
+  id: 'mf-2026-vision-theme',
+  title: 'OpenClaw + MoltFounders VS Code Theme',
+  tractionScore: 9,
+  links: ['https://github.com/primer/github-vscode-theme', 'https://moltfounders.com'],
+  tags: ['vscode', 'design', 'oss'],
+}
+
+evaluateIdea(idea, 'orchestrator').then(console.log)

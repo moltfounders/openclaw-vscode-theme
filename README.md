@@ -45,8 +45,12 @@ This theme started from the excellent structure of:
 
 Customized and re-tuned for OpenClaw + MoltFounders identity.
 
-## Screenshot
+## Screenshots
 
-Screenshot capture is environment-dependent (GUI display required). If running on a local desktop, open `demo.ts`, apply `OpenClaw MoltFounders Dark`, and add a screenshot at:
+### Editor view
 
-- `docs/vscode-screenshot.png`
+![OpenClaw MoltFounders Theme - Editor](docs/screenshots/theme-editor-crop.png)
+
+### Full desktop capture
+
+![OpenClaw MoltFounders Theme - Full](docs/screenshots/theme-editor-full.png)

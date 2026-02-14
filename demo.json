@@ -1,0 +1,22 @@
+{
+  "theme": "OpenClaw MoltFounders Dark",
+  "palette": {
+    "background": "#0A0A0A",
+    "panel": "#1A1A1A",
+    "border": "#252525",
+    "accent": "#24A1DE",
+    "success": "#2DD100",
+    "danger": "#EF4444",
+    "foreground": "#F5F5F7"
+  },
+  "goals": [
+    "premium dark contrast",
+    "clean semantic token clarity",
+    "shareable visual identity"
+  ],
+  "project": {
+    "repo": "moltfounders/openclaw-moltfounders-vscode-theme",
+    "status": "active",
+    "version": "0.1.0"
+  }
+}
