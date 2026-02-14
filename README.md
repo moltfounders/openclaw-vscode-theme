@@ -1,47 +1,52 @@
-# GitHub's VS Code themes
+# OpenClaw MoltFounders Theme
 
-![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)
+A high-contrast dark VS Code theme inspired by OpenClaw + MoltFounders.
 
-## Install
+## Design goals
 
-1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
-2. Click on the "Install" button.
-3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme). The GitHub themes try to match the themes available in [github.com's settings](https://github.com/settings/appearance):
-    - `GitHub Light Default`
-    - `GitHub Light High Contrast` ✨ new ✨
-    - `GitHub Light Colorblind` ✨ new ✨
-    - `GitHub Dark Default`
-    - `GitHub Dark High Contrast`
-    - `GitHub Dark Colorblind` ✨ new ✨
-    - `GitHub Dark Dimmed`
+- Premium dark UI (not flat/basic)
+- High readability for long coding sessions
+- Strong accent identity from MoltFounders brand tones
+- Clean token colors for TypeScript/JS, JSON, Markdown, shell
 
-Additionally, there are also two older themes. **Note**: They might not get updated frequently and are kept for legacy reasons:
+## Brand-inspired palette
 
-- `GitHub Light` (legacy)
-- `GitHub Dark` (legacy)
+- Background: `#0A0A0A`
+- Panel: `#1A1A1A`
+- Border: `#252525`
+- Primary accent (Molt cyan): `#24A1DE`
+- Success accent: `#2DD100`
+- Alert accent: `#EF4444`
+- Foreground: `#F5F5F7`
 
-## Override this theme
+These values were selected from MoltFounders visual styling and tuned for editor legibility.
 
-To override this (or any other) theme in your personal config file, please follow the guide in the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation. This is handy for small tweaks to the theme without having to fork and maintain your own theme. 
+## Install locally
 
-## Contribute
+```bash
+npm install
+npm run build
+npx vsce package --no-yarn -o ./build/openclaw-moltfounders-theme.vsix
+code --install-extension ./build/openclaw-moltfounders-theme.vsix --force
+```
 
-1. Clone and open this [repo](https://github.com/primer/github-vscode-theme) in VS Code
-2. Run `yarn` to install the dependencies.
-3. Press `F5` to open a new window with your extension loaded
-4. Open `Code > Preferences > Color Theme` [`⌘k ⌘t`] and pick the "GitHub ..." theme you want to test. Note: It seems this has to be done 2x because the first time it switches back to the default light theme. This might be a bug?
-5. Make changes to the [`/src/theme.js`](https://github.com/primer/github-vscode-theme/blob/master/src/theme.js) file.
-    - **UI**: For all changes to the "outer UI", like (status bar, file navigation etc.), take a look at the [Theme Color](https://code.visualstudio.com/api/references/theme-color) reference.
-    - **Syntax**: For changes to the "code highlighting", examine the syntax scopes by invoking the [`Developer: Inspect Editor Tokens and Scopes`](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector) command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) in the Extension Development Host window.
-6. Run `yarn build` to update the theme. You can also run `yarn start` instead to automatically rebuild the theme while making changes and no reloading should be necessary.
-7. Once you're happy, commit your changes and open a PR.
+Then in VS Code choose:
 
-Note:
+`OpenClaw MoltFounders Dark`
 
-- If possible use colors from [Primer's color system](https://primer.style/primitives/colors).
+## Theme file
 
-## Publish (internal)
+- `theme/openclaw-moltfounders-dark.json`
 
-> Note: Publishing a new version of this theme is only meant for maintainers.
+## Based on
 
-This repo uses [changesets](https://github.com/atlassian/changesets) to automatically make updates to [CHANGELOG.md](https://github.com/primer/github-vscode-theme/blob/main/CHANGELOG.md) and publish a new version to the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
+This theme started from the excellent structure of:
+- https://github.com/primer/github-vscode-theme
+
+Customized and re-tuned for OpenClaw + MoltFounders identity.
+
+## Screenshot
+
+Screenshot capture is environment-dependent (GUI display required). If running on a local desktop, open `demo.ts`, apply `OpenClaw MoltFounders Dark`, and add a screenshot at:
+
+- `docs/vscode-screenshot.png`

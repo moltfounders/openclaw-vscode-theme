@@ -1,9 +1,9 @@
 {
-  "name": "github-vscode-theme",
-  "displayName": "GitHub Theme",
-  "description": "GitHub theme for VS Code",
-  "version": "6.3.5",
-  "publisher": "GitHub",
+  "name": "openclaw-moltfounders-theme",
+  "displayName": "OpenClaw MoltFounders Theme",
+  "description": "A premium dark VS Code theme inspired by OpenClaw + MoltFounders",
+  "version": "0.1.0",
+  "publisher": "moltfounders",
   "license": "MIT",
   "icon": "icon.png",
   "galleryBanner": {
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/primer/github-vscode-theme"
+    "url": "https://github.com/moltfounders/openclaw-moltfounders-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/primer/github-vscode-theme/issues"
+    "url": "https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/issues"
   },
   "engines": {
     "vscode": "^1.43.0"
@@ -25,58 +25,18 @@
   ],
   "keywords": [
     "theme",
-    "github",
-    "light",
     "dark",
-    "protanopia",
-    "colorblind"
+    "openclaw",
+    "moltfounders",
+    "ai",
+    "terminal"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "GitHub Light Default",
-        "uiTheme": "vs",
-        "path": "./themes/light-default.json"
-      },
-      {
-        "label": "GitHub Light High Contrast",
-        "uiTheme": "hc-light",
-        "path": "./themes/light-high-contrast.json"
-      },
-      {
-        "label": "GitHub Light Colorblind (Beta)",
-        "uiTheme": "vs",
-        "path": "./themes/light-colorblind.json"
-      },
-      {
-        "label": "GitHub Dark Default",
+        "label": "OpenClaw MoltFounders Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-default.json"
-      },
-      {
-        "label": "GitHub Dark High Contrast",
-        "uiTheme": "hc-black",
-        "path": "./themes/dark-high-contrast.json"
-      },
-      {
-        "label": "GitHub Dark Colorblind (Beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-colorblind.json"
-      },
-      {
-        "label": "GitHub Dark Dimmed",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-dimmed.json"
-      },
-      {
-        "label": "GitHub Light",
-        "uiTheme": "vs",
-        "path": "./themes/light.json"
-      },
-      {
-        "label": "GitHub Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
+        "path": "./theme/openclaw-moltfounders-dark.json"
       }
     ]
   },
@@ -92,7 +52,7 @@
   "scripts": {
     "start": "nodemon --watch src src/index.js",
     "build": "node src/index.js && mkdir -p build",
-    "package": "vsce package -o ./build/github-vscode-theme.vsix",
+    "package": "vsce package -o ./build/openclaw-moltfounders-theme.vsix",
     "prepublishOnly": "npm run build && vsce publish",
     "release": "changeset publish"
   },
