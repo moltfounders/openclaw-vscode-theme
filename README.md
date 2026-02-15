@@ -1,13 +1,13 @@
 <div align="center">
 
-# OpenClaw MoltFounders Dark Theme
+# OpenClaw Dark Theme
 
 ![Hero Banner](assets/hero-banner.png)
 
 **Premium high-contrast theme for the modern developer.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/moltfounders/openclaw-moltfounders-vscode-theme?style=social)](https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/moltfounders/openclaw-vscode-theme?style=social)](https://github.com/moltfounders/openclaw-vscode-theme/stargazers)
 [![VS Code Theme](https://vsmarketplacebadges.dev/version/moltfounders.openclaw-moltfounders-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moltfounders.openclaw-moltfounders-theme)
 
 ---
@@ -78,8 +78,8 @@ Every color was chosen with intention. Inspired by the MoltFounders brand, tuned
 
 ```bash
 # Clone the repo
-git clone https://github.com/moltfounders/openclaw-moltfounders-vscode-theme.git
-cd openclaw-moltfounders-vscode-theme
+git clone https://github.com/moltfounders/openclaw-vscode-theme.git
+cd openclaw-vscode-theme
 
 # Build and install
 npm install
@@ -127,9 +127,9 @@ All token colors are clearly labeled. Change a value, reload the theme, see the 
 
 Found a bug? Want a new language support? Have a color suggestion?
 
-- 🐛 [Report Issues](https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/issues)
-- 💡 [Feature Requests](https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/issues/new?template=feature_request.md)
-- 💬 [Discussions](https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/discussions)
+- 🐛 [Report Issues](https://github.com/moltfounders/openclaw-vscode-theme/issues)
+- 💡 [Feature Requests](https://github.com/moltfounders/openclaw-vscode-theme/issues/new?template=feature_request.md)
+- 💬 [Discussions](https://github.com/moltfounders/openclaw-vscode-theme/discussions)
 
 ## 📄 License
 
@@ -143,7 +143,7 @@ MIT License — Feel free to use in personal and commercial projects.
 
 **Built with ❤️ for developers who care about their tools**
 
-[⭐ Star on GitHub](https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/stargazers) ·
+[⭐ Star on GitHub](https://github.com/moltfounders/openclaw-vscode-theme/stargazers) ·
 [🐦 Follow MoltFounders](https://moltfounders.com)
 
 </div>

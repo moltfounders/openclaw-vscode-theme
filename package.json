@@ -1,7 +1,7 @@
 {
-  "name": "openclaw-moltfounders-theme",
-  "displayName": "OpenClaw MoltFounders Theme",
-  "description": "A premium dark VS Code theme by MoltFounders",
+  "name": "openclaw-theme",
+  "displayName": "OpenClaw Dark Theme",
+  "description": "A premium dark VS Code theme",
   "version": "0.1.0",
   "publisher": "moltfounders",
   "license": "MIT",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moltfounders/openclaw-moltfounders-vscode-theme"
+    "url": "https://github.com/moltfounders/openclaw-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/moltfounders/openclaw-moltfounders-vscode-theme/issues"
+    "url": "https://github.com/moltfounders/openclaw-vscode-theme/issues"
   },
   "engines": {
     "vscode": "^1.43.0"
