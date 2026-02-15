@@ -30,7 +30,7 @@ const idea: ResearchIdea = {
   id: 'mf-2026-vision-theme',
   title: 'OpenClaw + MoltFounders VS Code Theme',
   tractionScore: 9,
-  links: ['https://github.com/primer/github-vscode-theme', 'https://moltfounders.com'],
+  links: ['https://moltfounders.com'],
   tags: ['vscode', 'design', 'oss'],
 }
 
