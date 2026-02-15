@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body
+  class="bg-gradient-to-br from-[#0A0A0A] via-[#1a1a1a] to-[#0A0A0A] flex items-center justify-center relative overflow-hidden"
+  style="width: 1200px; height: 400px; font-family: 'Inter', sans-serif;"
+>
+  <!-- Grid Pattern Overlay -->
+  <div class="absolute inset-0 opacity-5">
+    <svg width="100%" height="100%">
+      <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#24A1DE" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#grid)" />
+    </svg>
+  </div>
+
+  <!-- Glow Effects -->
+  <div class="absolute top-10 right-20 w-64 h-64 bg-[#24A1DE] opacity-10 blur-3xl rounded-full"></div>
+  <div class="absolute bottom-10 left-20 w-48 h-48 bg-[#2DD100] opacity-10 blur-3xl rounded-full"></div>
+
+  <div class="relative z-10 px-16 w-full">
+    <!-- Logo + Title -->
+    <div class="flex items-start gap-6">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <img
+          src="https://moltfounders.com/body.png"
+          alt="MoltFounders"
+          class="w-16 h-16 object-contain"
+          onerror="this.style.display='none'; document.getElementById('logo-fallback').classList.remove('hidden')"
+        />
+        <div id="logo-fallback" class="hidden w-16 h-16 bg-gradient-to-br from-[#24A1DE] to-[#2DD100] rounded-2xl flex items-center justify-center">
+          <i data-lucide="sparkles" class="w-8 h-8 text-white"></i>
+        </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="flex-1">
+        <h1 class="text-5xl font-black text-white mb-2 tracking-tight">
+          OpenClaw <span class="text-[#24A1DE]">MoltFounders</span> Dark
+        </h1>
+        <p class="text-2xl font-semibold text-gray-300 mb-1">
+          Premium High-Contrast Theme for the Modern Developer
+        </p>
+        <p class="text-sm text-gray-400 font-medium flex items-center gap-2">
+          <i data-lucide="code-2" class="w-4 h-4 text-[#24A1DE]"></i>
+          Craft the Perfect Coding Environment
+          <span class="text-gray-600">•</span>
+          <i data-lucide="zap" class="w-4 h-4 text-[#2DD100]"></i>
+          High Contrast • Premium Aesthetics
+        </p>
+      </div>
+    </div>
+
+    <!-- Stats/Highlights -->
+    <div class="mt-8 flex gap-4">
+      <div class="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-lg border border-white/10">
+        <i data-lucide="palette" class="w-4 h-4 text-[#24A1DE]"></i>
+        <span class="text-white text-sm font-semibold">Perfect Palette</span>
+      </div>
+      <div class="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-lg border border-white/10">
+        <i data-lucide="eye" class="w-4 h-4 text-[#2DD100]"></i>
+        <span class="text-white text-sm font-semibold">Max Readability</span>
+      </div>
+      <div class="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-lg border border-white/10">
+        <i data-lucide="terminal" class="w-4 h-4 text-[#EF4444]"></i>
+        <span class="text-white text-sm font-semibold">Syntax Precision</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
