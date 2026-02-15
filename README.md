@@ -62,9 +62,7 @@ Every color was chosen with intention. Inspired by the MoltFounders brand, tuned
 
 ## 📸 Live Preview
 
-![Full Window](docs/screenshots/theme-window-only.png)
-
-![Editor View](docs/screenshots/theme-editor-crop.png)
+![Theme Preview](docs/screenshots/theme.png)
 
 ## 🚀 Quick Install
 
