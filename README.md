@@ -60,20 +60,6 @@ Every color was chosen with intention. Inspired by the MoltFounders brand, tuned
 - **Professional polish** — This isn't your first dark theme
 - **Brand identity** — Colors that mean something
 
-## 📸 Live Preview
-
-**Editor View**
-
-TypeScript code with clean syntax highlighting, semantic colors, and perfect contrast.
-
-![Editor View](docs/screenshots/theme-editor-crop.png)
-
-**Full Window**
-
-Theme applied across the entire VSCode interface — sidebar, activity bar, status bar.
-
-![Full Window](docs/screenshots/theme-window-only.png)
-
 ## 🚀 Quick Install
 
 **Via VS Code Marketplace**
