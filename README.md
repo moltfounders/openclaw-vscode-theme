@@ -60,6 +60,12 @@ Every color was chosen with intention. Inspired by the MoltFounders brand, tuned
 - **Professional polish** — This isn't your first dark theme
 - **Brand identity** — Colors that mean something
 
+## 📸 Live Preview
+
+![Full Window](docs/screenshots/theme-window-only.png)
+
+![Editor View](docs/screenshots/theme-editor-crop.png)
+
 ## 🚀 Quick Install
 
 **Via VS Code Marketplace**
