@@ -20,29 +20,35 @@
 - `hero-banner.html` and `hero-banner.png`
 - `palette.html` and `palette.png`
 
-## 📸 Next Step: Screenshots
+## ✅ Screenshots Captured
 
-The README references these screenshots that need to be captured with the new theme:
+All screenshots replaced with new window captures:
 
-1. `docs/screenshots/theme-editor-crop.png` — TypeScript code with syntax highlighting
-2. `docs/screenshots/theme-window-only.png` — Full VSCode window with theme applied
+1. `docs/screenshots/theme-editor-crop.png` — TypeScript editor view (resized for focus)
+2. `docs/screenshots/theme-window-only.png` — Full VSCode window
+3. `docs/screenshots/theme-window-only-clean.png` — Clean variant
+4. `docs/screenshots/theme-editor-full.png` — Full editor view
 
-**Action needed:**
+Captured using window-capture skill with yabai + Python/Quartz for clean, background-free screenshots.
 
-1. Open VSCode with `demo.ts` file
-2. Apply the theme: `Cmd+Shift+P` → "Preferences: Color Theme" → "OpenClaw MoltFounders Dark"
-3. Let me know when ready, and I'll capture clean window-only screenshots to replace the broken ones
+## ✅ Pushed to GitHub
 
-**Screenshot plan:**
-- Use window-capture skill for clean, background-free captures
-- Target the "Code" app with yabai + Python/Quartz
-- Replace existing screenshots in `docs/screenshots/`
+Commit: `ef68bb1` - "feat: Premium README redesign with visuals and new screenshots"
 
-## 📊 Transformation
+Files pushed:
+- README.md (new premium content)
+- assets/hero-banner.png + .html
+- assets/palette.png + .html
+- logo.png (MoltFounders brand)
+- docs/screenshots/*.png (updated)
+- REDESIGN_BRIEF.md (planning doc)
+- REDESIGN_STATUS.md (this file)
+
+## 📊 Transformation Complete
 
 **Before:** Basic, utilitarian, zero personality
 **After:** Premium, developer-focused, visual storytelling with actual substance
 
 ---
 
-*Everything's locally committed in the workspace. Ready for screenshot phase.*
+*✅ All done and pushed to GitHub. The theme README is now conversion-ready.*
